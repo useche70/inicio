@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useche360.com - Digital Future Vision</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="container">
+        <div class="menu-wrapper">
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="dropdown-menu">
+                <ul>
+                    <li><a href="https://useche70.github.io/podcast/" target="_blank">Podcast</a></li>
+                    <li><a href="#musica">Música</a></li>
+                    <li><a href="#diseno">Diseño</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#academia">Academia</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="center-logo">
+            useche<span class="highlight">360</span>.com
+            <div class="slogan">Visión 360° del Futuro Digital</div>
+        </div>
+
+        <div class="orbit-container">
+            <div class="icon icon-1" data-icon="🎶"></div>
+            <div class="icon icon-2" data-icon="📚"></div>
+            <div class="icon icon-3" data-icon="✉️"></div>
+            <div class="icon icon-4" data-icon="🎓"></div>
+            <div class="icon icon-5" data-icon="💼"></div>
+            <div class="icon icon-6" data-icon="📞"></div>
+            <div class="icon icon-7" data-icon="💡"></div>
+            <div class="icon icon-8" data-icon="💻"></div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript para alternar la visibilidad del menú
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.dropdown-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
